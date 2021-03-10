@@ -17,28 +17,26 @@ export default function App() {
 
 const styles = StyleSheet.create({
   contenedor: {
-    backgroundColor: '#734AA2',
+    backgroundColor: 'cyan',
     flex: 1,
-    flexDirection: 'column'
+    // flexDirection: 'row',
+    // alignItems: 'flex-start'
+    justifyContent: 'center'
   },
   caja1: {
     padding:20,
     backgroundColor: '#A32446',
-    flex: 1
   },
   caja2: {
     padding:20,
     backgroundColor: '#A39624',
-    flex: 1
   },
   caja3: {
     padding:20,
     backgroundColor: '#762500',
-    flex: 1
   },
   caja4: {
     padding:20,
     backgroundColor: '#0B6A06',
-    flex: 3
   }
 });
